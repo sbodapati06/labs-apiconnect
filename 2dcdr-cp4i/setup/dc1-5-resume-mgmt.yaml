@@ -1,0 +1,4 @@
+spec:
+  management:
+    multiSiteHA:
+      mode: active

@@ -1,0 +1,34 @@
+info:
+  version: 1.0.0
+  title: petstore-product
+  name: petstore-product
+  summary: Contains PetStore APIs
+  description: Contains PetStore Open API 3.0 APIs
+  categories:
+    - PetStore
+gateways:
+  - datapower-api-gateway
+plans:
+  default-plan:
+    title: Default Plan
+    description: Default Plan
+    rate-limits:
+      default:
+        value: 100/1hour
+    apis:
+      petstore-api1.0.15: {}
+apis:
+  petstore-api1.0.15:
+    $ref: petstore-api_1.0.15.yaml
+visibility:
+  view:
+    type: public
+    orgs: []
+    tags: []
+    enabled: true
+  subscribe:
+    type: authenticated
+    orgs: []
+    tags: []
+    enabled: true
+product: 1.0.0

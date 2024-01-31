@@ -1,0 +1,4 @@
+spec:
+  portal:
+    multiSiteHA:
+      mode: passive
