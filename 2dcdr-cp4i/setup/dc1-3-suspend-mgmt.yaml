@@ -1,7 +1,0 @@
-metadata:
-  annotations:
-    apiconnect-operator/dr-data-deletion-confirmation: "true"
-spec:
-  management:
-    multiSiteHA:
-      mode: passive
